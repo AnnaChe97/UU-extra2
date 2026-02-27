@@ -21,18 +21,29 @@
       <span class="site-title">Min side</span>
     </header>
 
-    <nav class="nav" role="navigation"> <!-- bevisst: upresist role og ingen semantisk <nav> -->
-      <a href="#">Hjem</a>
-      <a href="#">Om oss</a>
-      <div class="dropdown">
-        <a href="#">Tjenester</a>
+    <nav > <!-- bevisst: upresist role og ingen semantisk <nav> -->
         <ul>
-          <li><a href="#">Design</a></li>
-          <li><a href="#">Utvikling</a></li>
-          <li><a href="#">Konsulent</a></li>
+            <li><a href="#">Hjem</a></li>
+            <li><a href="#">Om oss</a></li>
+            <li>
+                <details>
+                    <summary>Tjenester</summary>
+                    <ul>
+                        <li><a href="#">Design</a></li>
+                        <li><a href="#">Utvikling</a></li>
+                        <li><a href="#">Konsulent</a></li>
+                        <li><a href="#">Kontakt</a></li>
+
+                    </ul>
+
+                </details>
+            </li>
+            <li>
+                <details>
+
+                </details>      
+            </li>
         </ul>
-      </div>
-      <a href="#">Kontakt</a>
     </nav>
 
     <section>
